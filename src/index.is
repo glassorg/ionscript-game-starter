@@ -2,6 +2,6 @@ import "react"
     as React
 import "react-dom"
     render
-import .Application
+import .components.Application
 
 render(<Application />, document.getElementById("root"))

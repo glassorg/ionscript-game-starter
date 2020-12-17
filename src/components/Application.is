@@ -1,0 +1,7 @@
+import .MainCanvas
+
+export default () =>
+    return
+        <div/>
+            "1: Game Starter React Three Fiber"
+            <MainCanvas/>
