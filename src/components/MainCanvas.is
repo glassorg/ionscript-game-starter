@@ -18,7 +18,7 @@ let Box = (props) =>
     useFrame()
         () =>
             //  TODO: += assignments
-            mesh.current.rotation.y = mesh.current.rotation.y + 0.01
+            mesh.current.rotation.y += mesh.current.rotation.y
             mesh.current.rotation.x = mesh.current.rotation.y
 
     return
